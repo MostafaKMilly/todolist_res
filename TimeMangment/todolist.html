@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todolist.css">
+    <title>Document</title>
+    <script src="todolist.js" async></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="toggle">
+            <i class="fa fa-check-circle-o img-logo" aria-hidden="true"></i>
+            <i class="fa fa-bars menu" aria-hidden="true" onclick="myfun()"></i>
+            
+        </div>
+        
+        <ul id="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <h1 id="hf">
+        To do list
+    </h1>
+    
+    <div class="left">
+       
+        <img src="https://help.apple.com/assets/5E1915820946229D2D1A0E65/5E1915840946229D2D1A0E6C/en_US/8bbf7008ad107d4543ab9dc38b6ac60f.png" alt="to do list">
+        <p>
+            Manage your time <br>
+            Save your activites <br>
+            Make progress 
+        </p>
+    </div>
+        <div class="right">
+        <h1>
+            Type your activites
+        </h1>
+            <input type="text" name="text" value="" placeholder="Name.." id="search">
+            <button type="button" name="button" id="button1" onclick="Additem()">Add</button> <br>
+            <ul id="listitem">
+            
+            </ul>
+            <button type="button" name="button" id="button2" onclick="clearitem()">Clear</button>
+        </div>
+    <div class="footer">
+        <p>mostafa milly</p>
+    </div>
+</body>
+</html>

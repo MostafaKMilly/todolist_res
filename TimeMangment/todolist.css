@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav {
+    width: 100%;
+    background-color: #293653;
+}
+#list {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    display: none;
+}
+#list  li {
+    list-style: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#list li:hover {
+    background-color: #2690db;
+}
+#list a {
+    color:#fff;
+    text-decoration: white;
+
+}
+#hf {
+text-align: center;
+padding : 10px;
+width:100%;
+box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background: #2690db;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: inline-flex;
+    
+}
+.img-logo {
+    
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left :20px;
+}
+
+.left img {
+    width: 35%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+}
+
+.left {
+    width: 100%;
+    text-align: center;
+    background-color: #fdfcf8;
+    font-size: 150%;
+    font-family:sans-serif;
+    display: block;
+    margin: 0;
+    line-height: 100px;
+    
+    
+}
+.left p {
+    margin: 0;
+}
+.right {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #9aacec;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    
+}
+
+.right h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+#search {
+  display: inline-block;
+  width: 40%;
+  padding: 5px;
+  font-size: 10px;
+  font-family: "Segoe UI";
+  font-size: 15px;
+  border:1px solid dodgerblue;
+  margin-right: 0px;
+
+}
+#button1 {
+  padding: 6px;
+  font-family:sans-serif;
+  font-size:90%;
+  width: 15%;
+  border: none;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: dodgerblue;
+  color: white;
+  transition: .5s ease;
+  opacity: 0.7;
+  border-radius: 0px 3px 3px 0px;
+}
+#button1:hover {
+  opacity: 1;
+}
+#listitem {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#button2 {
+  font-family:sans-serif;
+  font-size:15px;
+  width: 20%;
+  margin-left: 43%;
+  border: none;
+  padding: 7px;
+  background-color: dodgerblue;
+  color: white;
+  transition: .5s ease;
+  opacity: 0.7;
+  border-radius: 3px 3px 3px 3px;
+  display: none;
+  padding-bottom: 4px;
+}
+#button2:hover {
+  opacity: 1;
+}
+
+#listitem li {
+  list-style: none;
+  font-size: 140%;
+  padding:5px;
+  font-family: sans-serif;
+  display: inline-block;
+  width: 90%;
+    text-align: center;
+  display: block;
+    margin-left: 25px;
+    box-sizing: border-box;
+  margin-bottom: 20px;
+  
+}
+#listitem li p{
+display: inline-block;
+width: 60%;
+text-align: left;
+font-size: 90%;
+
+
+}
+#listitem li div {
+    display: inline-block;
+    width: 30%;
+    margin: 4z;
+    }
+#listitem li div img {
+  width: 20%;
+  margin-left: 3px ;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  font-size: 90%;
+  padding: 0px;
+  margin :0px;
+  
+}
+.footer p {
+  margin: 0;
+  padding : 0;
+  color: #fff;
+  padding: 4px;
+}
+@media screen and (min-width:800px) {
+    .toggle {
+        display: none;
+    }
+    #list {
+        display: block;
+    }
+    #list li {
+        display: inline-block;
+    }
+    
+}
